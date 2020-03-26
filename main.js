@@ -1,11 +1,13 @@
 var numeri = 0
 var lista = []
-for (var i = 0; i < 100; i++) {
-  numeri= numeri - 0 + 1
+for (var i = 1; i <= 100; i++) {
+  numeri = i
   lista.push(numeri)
+  console.log(numeri);
 }
 
-console.log(numeri);
+
+
 console.log(lista);
 
 for (var i = 2; i < lista.length; i += 3) {
